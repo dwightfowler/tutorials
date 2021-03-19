@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "dependencies": {
-    "hello": "^1.0.0"
+    "hello": "^1.0.0",
+    "xml2js": "^0.4.23"
   },
   "scripts": {
     "start": "node app.js",

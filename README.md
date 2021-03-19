@@ -1,7 +1,9 @@
 # Tutorials
 
 ## Notes
+
 How to create a class
+
 ~~~~javascript
 class MyClass extends React.Component {
   render() {

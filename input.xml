@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Operation desc="Exit-House">
+  How to exit the house
+  <Action>
+    <Step seq="1" id="Open-Door">Open the door</Step>
+    <Step seq="2" id="Walk-Thru">Walk through the door</Step>
+    <Step seq="3" id="Close-Door">Close the door</Step>
+    <Step seq="4" id="Lock-Door">Lock the door<Action>
+        <Step seq="4.1" id="Insert-Key">Insert the key</Step>
+        <Step seq="4.2" id="Turn-Key">Turn the key</Step>
+        <Step seq="4.3" id="Remove-Key">Remove the key</Step>
+      </Action>
+    </Step>
+    <Step seq="5" id="Walk-Away">Walk away from the door</Step>
+  </Action>
+</Operation>
