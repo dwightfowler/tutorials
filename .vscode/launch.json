@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeArgs": ["--trace-warnings"],
+            "program": "${workspaceFolder}\\app.js",
+            "args": ["Bob", "Mary", "Phil", "Sue", "Ann", "Burt", "Carl", "Dan", "Ed", "Fred", "Gil", "Hal"],
+        }
+    ]
+}
